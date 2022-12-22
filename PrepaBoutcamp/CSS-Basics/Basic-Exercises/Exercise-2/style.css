@@ -1,0 +1,24 @@
+.cl {
+   background-color: darksalmon; 
+}
+#p2 {
+    font-size: 2em;
+    
+}
+#div1 {
+    color: blue;
+    font-size: 2.5em;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+body {
+    padding: 0% 10%;
+    font-size: 1.5em;
+}
+
+#div2 {
+    background-color: green;
+    font-weight: bold;
+    font-size: 2.5em;
+
+}
