@@ -153,8 +153,7 @@ for user in users:
         continue
     users.remove(user)
     
-print(users)       
-        
+print(users)  
 
 for user in users:
     try:
