@@ -19,7 +19,7 @@ print(my_fav_numbersfriend_fav_numbersour_fav_numbers)
 
 #Exercice 2
 #Question 1
-#yes, it is possible .
+#No, it isn't possible .
 
 #Exercice 3
 basket = ["Banana", "Apples", "Oranges", "Blueberries"];
@@ -61,8 +61,10 @@ for i in range(10):
 
 
 #Question 3
-liste=[1.5,2,2.5,3,3.5,4,4.5,5]
-
+for i in range(1,5):
+    print(i)
+    print(i+0.5)
+print(i+0.5)
     
     
 

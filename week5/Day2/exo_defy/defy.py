@@ -74,5 +74,3 @@ print('pageJumping:',page.getVisibleItems())
 page.goToPage(30)
 print('pageJumping:',page.getVisibleItems())
 
-"""
-print(*page.getVisibleItems())"""

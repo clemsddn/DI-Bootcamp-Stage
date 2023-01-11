@@ -13,13 +13,16 @@ class Farm:
     def get_info(self):
         for i,j in self.registre.items():
             print( f"\n{i} : {j}")
+        print('     E-I-E-I-0!')
     
-    def get_animal_types(self):
-        return self.registre.keys()
+    def get_animal_types(self): 
+        res = list(self.registre.keys())
+        chaine=", ".join(res[0:len(res)-1])
+        return f'{chaine} and {res[-1]}'
     def Farmget_short_info(self):
-        print(self.labelle,"'s McDonald’s farm has ",end="")
-        liste=self.get_animal_types()
-        print(*liste)
+                    print(self.labelle,"'s McDonald’s farm has ",end="")
+                    liste=self.get_animal_types()
+                    print(liste)
        
 
     
@@ -30,5 +33,5 @@ macdonald.add_animal('sheep')
 macdonald.add_animal('sheep')
 macdonald.add_animal('goat', 12)
 macdonald.get_info()
-print(macdonald.get_animal_types())
+macdonald.get_animal_types()
 macdonald.Farmget_short_info()

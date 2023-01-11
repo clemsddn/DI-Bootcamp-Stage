@@ -25,12 +25,10 @@ for seg in phrase:
         chaine+=str(x)
 def decriptage(chai):
     
-    sc_list = '[@_!#$%^&*()<>?}{~:]+'
+    sc_list = '[@_!#$%^&*()<>?}{~:  ]+'
     res=re.findall(sc_list,chai)
     rese=re.sub(sc_list,' ',chai)
     chaine_liste=list(rese)
-
-
     dig=[]
     for sy in chaine_liste:
         if sy.isdigit():
@@ -41,8 +39,6 @@ def decriptage(chai):
 
 print(f"\nDecripter vos messages comme par exemple le  text du tableau ci dessus :\n \t Resultat ======>>> {decriptage(chaine)}\n")
 
-print("""\t \t#######################################################################################################
-    \t \t#######################################################################################################""")
 def main():
     chain=input("\nEntrer une chaine :")
     print(f"\nLe message est :\n=======>>> {decriptage(chain)}")

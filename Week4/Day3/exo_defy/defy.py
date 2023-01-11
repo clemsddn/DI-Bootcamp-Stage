@@ -1,4 +1,4 @@
- """
+"""
 ##Challenge 1
 #Question 1
 mot=input("Entrer un mot:")
